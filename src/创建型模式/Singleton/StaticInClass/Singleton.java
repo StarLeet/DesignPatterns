@@ -1,4 +1,4 @@
-package Singleton.StaticInClass;
+package 创建型模式.Singleton.StaticInClass;
 
 import java.io.Serializable;
 

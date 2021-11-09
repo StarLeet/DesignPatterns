@@ -1,4 +1,4 @@
-package Singleton.DoubleLock;
+package 创建型模式.Singleton.DoubleLock;
 
 public class MyThread implements Runnable{
     @Override

@@ -1,4 +1,4 @@
-package Singleton.Enum;
+package 创建型模式.Singleton.Enum;
 
 public enum Singleton { //枚举类因为底层构建关系是线程安全的,且不存在任何问题
     EARTH("银河系",10000),

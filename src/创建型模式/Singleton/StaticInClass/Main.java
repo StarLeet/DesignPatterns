@@ -1,6 +1,4 @@
-package Singleton.StaticInClass;
-
-import java.io.ObjectInputStream;
+package 创建型模式.Singleton.StaticInClass;
 
 public class Main {
     public static void main(String[] args) {

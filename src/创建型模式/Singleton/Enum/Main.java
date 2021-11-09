@@ -1,4 +1,4 @@
-package Singleton.Enum;
+package 创建型模式.Singleton.Enum;
 
 public class Main {
     public static void main(String[] args) {

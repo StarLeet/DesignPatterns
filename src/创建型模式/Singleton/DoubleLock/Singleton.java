@@ -1,4 +1,4 @@
-package Singleton.DoubleLock;
+package 创建型模式.Singleton.DoubleLock;
 
 public class Singleton {
     private static volatile Singleton EARTH;  //假设单例实例化的对象是地球,因为地球只有一个
