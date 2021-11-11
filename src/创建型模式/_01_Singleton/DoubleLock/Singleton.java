@@ -1,5 +1,11 @@
 package 创建型模式._01_Singleton.DoubleLock;
 
+/**
+ * @ClassName Singleton
+ * @Description 处理空指针异常后的双重检查锁
+ * @Author StarLee
+ * @Date 2021/11/10
+ */
 public class Singleton {
     private static volatile Singleton EARTH;  //假设单例实例化的对象是地球,因为地球只有一个
     //volatile关键字防止某些情况下的空指针异常

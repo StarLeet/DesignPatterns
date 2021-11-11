@@ -3,6 +3,13 @@ package Tools;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/**
+ * @ClassName CountTime
+ * @Description 计算指定任务运行时间的封装类
+ * @Author StarLee
+ * @Date 2021/11/10
+ */
+
 public class CountTime {
     private static final SimpleDateFormat fmt = new SimpleDateFormat("HH:mm:ss.SSS");
 

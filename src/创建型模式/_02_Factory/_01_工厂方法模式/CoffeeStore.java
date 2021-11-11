@@ -16,7 +16,7 @@ public class CoffeeStore {
     }
 
     public void orderCoffee(){
-        Coffee coffee = factory.ProcessBeans();
+        Coffee coffee = factory.processBeans();
         coffee.addMilk();
         coffee.addSugar();
     }

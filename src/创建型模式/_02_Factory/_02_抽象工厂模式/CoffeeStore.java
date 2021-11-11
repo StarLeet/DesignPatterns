@@ -1,7 +1,5 @@
 package 创建型模式._02_Factory._02_抽象工厂模式;
 
-import 创建型模式._02_Factory.CoffeeFactory;
-import 创建型模式._02_Factory.DessertFactory;
 import 创建型模式._02_Factory.Factory;
 import 创建型模式._02_Factory.咖啡类群.Coffee;
 import 创建型模式._02_Factory.甜品类群.Dessert;
@@ -20,12 +18,12 @@ public class CoffeeStore {
     }
 
     public void orderCoffee(){
-        Coffee coffee = ((CoffeeFactory)factory).ProcessBeans();
+        Coffee coffee = factory.processBeans();
         coffee.addMilk();
         coffee.addSugar();
     }
 
     public void orderDessert(){
-        Dessert dessert = ((DessertFactory)factory).createDessert();
+        Dessert dessert = factory.createDessert();
     }
 }

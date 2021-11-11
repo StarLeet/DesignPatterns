@@ -11,12 +11,12 @@ import 创建型模式._02_Factory.咖啡类群.Coffee;
 
 public class Main {
     public static void main(String[] args) {
-        Coffee coffee = CoffeeFactory.createCoffee("Asian");
+        Coffee coffee = CoffeeFactory.processBeans("Asian");
         coffee.addMilk();
         System.out.println(coffee.getCountry());
 
         System.out.println("=============");
-        Coffee coffee1 = CoffeeFactory.createCoffee("Europe");
+        Coffee coffee1 = CoffeeFactory.processBeans("Europe");
         coffee1.addMilk();
         System.out.println(coffee1.getCountry());
     }
