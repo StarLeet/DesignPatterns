@@ -1,6 +1,5 @@
-package 结构型模式.cglib动态代理;
+package 结构型模式._01_Proxy.cglib动态代理;
 
-import net.sf.cglib.proxy.Callback;
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;

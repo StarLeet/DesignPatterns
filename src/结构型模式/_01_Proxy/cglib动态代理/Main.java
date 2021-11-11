@@ -1,4 +1,4 @@
-package 结构型模式.cglib动态代理;
+package 结构型模式._01_Proxy.cglib动态代理;
 
 /**
  * @ClassName Main
