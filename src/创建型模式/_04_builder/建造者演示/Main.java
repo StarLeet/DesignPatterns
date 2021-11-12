@@ -1,5 +1,9 @@
 package 创建型模式._04_builder.建造者演示;
 
+import 创建型模式._04_builder.建造者演示.建造者类群.AbstractBuilder;
+import 创建型模式._04_builder.建造者演示.建造者类群.MobikeBuilder;
+import 创建型模式._04_builder.建造者演示.建造者类群.OfoBuilder;
+
 /**
  * @ClassName Main
  * @Description ToDo

@@ -1,4 +1,6 @@
-package 创建型模式._04_builder.建造者演示;
+package 创建型模式._04_builder.建造者演示.建造者类群;
+
+import 创建型模式._04_builder.建造者演示.Bike;
 
 /**
  * @ClassName AbstractBuilder

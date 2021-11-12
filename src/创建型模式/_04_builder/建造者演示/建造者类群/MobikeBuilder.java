@@ -1,4 +1,7 @@
-package 创建型模式._04_builder.建造者演示;
+package 创建型模式._04_builder.建造者演示.建造者类群;
+
+import 创建型模式._04_builder.建造者演示.Bike;
+import 创建型模式._04_builder.建造者演示.建造者类群.AbstractBuilder;
 
 /**
  * @ClassName MobikeBuilder
@@ -7,7 +10,7 @@ package 创建型模式._04_builder.建造者演示;
  * @Date 2021/11/10
  */
 
-public class MobikeBuilder extends AbstractBuilder{
+public class MobikeBuilder extends AbstractBuilder {
     @Override
     public void buildFrame() {
         mBike.setFrame("铝合金车架");
